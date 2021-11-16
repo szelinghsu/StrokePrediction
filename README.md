@@ -8,6 +8,16 @@ There are many factors contribute to the risk of stroke. Some are beyond one’s
 This [dataset](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) is taken from Kaggle.com for this project.
 
 ## Project directories
-- [dataset](https://github.com/szelinghsu/StrokePrediction/tree/master/dataset) contains original dataset and dataset after cleaning
-- [notebook](https://github.com/szelinghsu/StrokePrediction/tree/master/notebook) contains the Jupyter notebooks for data preprocessing, EDA, and machine learning modeling
-- [report](https://github.com/szelinghsu/StrokePrediction/tree/master/report) contains the project report and presentation slides
+- [dataset](https://github.com/szelinghsu/StrokePrediction/tree/master/dataset) contains 
+  - [healthcare-dataset-stroke-data.csv](https://github.com/szelinghsu/StrokePrediction/blob/master/dataset/healthcare-dataset-stroke-data.csv) the original dataset
+  - [healthcare-dataset-stroke-data-cleaned.csv](https://github.com/szelinghsu/StrokePrediction/blob/master/dataset/healthcare-dataset-stroke-data-cleaned.csv) the dataset after cleaning
+- [notebook](https://github.com/szelinghsu/StrokePrediction/tree/master/notebook) contains
+  - [StrokePrediction_Preprocessing.ipynb](https://github.com/szelinghsu/StrokePrediction/blob/master/notebook/StrokePrediction_Preprocessing.ipynb) for data cleaning and imputing missing values
+  - [StrokePrediction_EDA.ipynb](https://github.com/szelinghsu/StrokePrediction/blob/master/notebook/StrokePrediction_EDA.ipynb) for exploratory data analysis
+  - [StrokePrediction_Modeling.ipynb](https://github.com/szelinghsu/StrokePrediction/blob/master/notebook/StrokePrediction_Modeling.ipynb) for machine learning modeling
+    - Used Threshold-moving method to handle imbalanced dataset problem
+    - Used Recall, Diagnostic odds ratio, and ROC AUC score as metrics
+    - Models implemented: Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, Gradident Boosting, XGBoost, Tuned Logistic Regression, Tuned Random Forest, and Tuned Gradient Boosting
+- [report](https://github.com/szelinghsu/StrokePrediction/tree/master/report) contains 
+  - [Stroke Prediction Final Report.pdf](https://github.com/szelinghsu/StrokePrediction/blob/master/report/Stroke%20Prediction%20Final%20Report.pdf) the final project report
+  - [Stroke Prediction Presentation Slides.pdf](https://github.com/szelinghsu/StrokePrediction/blob/master/report/Stroke%20Prediction%20Presentation%20Slides.pdf) the project presentation slides
